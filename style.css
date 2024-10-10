@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa; /* Couleur de fond douce */
+    color: #1867f0; /* Couleur de texte */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1867f0; /* Couleur de fond pour l'en-tête */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: white; /* Couleur de texte de l'en-tête */
+    margin: 0; /* Supprime la marge */
+}
+
+main {
+    display: flex;
+    justify-content: center; /* Centre le contenu principal */
+    align-items: center;
+    height: 70vh; /* Hauteur du contenu principal */
+}
+
+nav {
+    background-color: #ffffff; /* Fond blanc pour la navigation */
+    border-radius: 8px; /* Bords arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre légère */
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none; /* Supprime les puces de la liste */
+    padding: 0;
+}
+
+nav ul li {
+    margin: 15px 0; /* Espace entre les éléments de la liste */
+}
+
+nav ul li a {
+    text-decoration: none; /* Supprime le soulignement */
+    color: #1867f0; /* Couleur des liens */
+    font-size: 1.5em; /* Taille de police des liens */
+    transition: color 0.3s, background-color 0.3s; /* Transition */
+    padding: 10px;
+    border-radius: 5px; /* Bords arrondis pour les liens */
+}
+
+nav ul li a:hover {
+    background-color: #1867f0; /* Couleur de fond au survol */
+    color: white; /* Couleur de texte au survol */
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1867f0; /* Couleur de fond pour le pied de page */
+    color: white; /* Couleur du texte du pied de page */
+}
+
+p {
+    margin: 0; /* Supprime la marge du paragraphe */
+}
