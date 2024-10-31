@@ -1,0 +1,24 @@
+.bloc1{
+    background-color: blue;
+    float:left;
+    height:200px;
+    width:200px;
+    margin:10px;
+
+}
+
+.bloc2{
+    margin-left: 20px;
+    height: 200px;
+    width: 150px;
+    background-color: crimson;
+    float:right;
+}
+
+.bloc3{
+    margin-left:20px;
+    height: 100px;
+    width: 150px;
+    background-color: yellowgreen;
+    clear: both;
+}
